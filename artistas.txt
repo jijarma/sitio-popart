@@ -1,0 +1,25 @@
+CREATE DATABASE Artistas_db;
+
+USE Artistas_db;
+
+CREATE TABLE artistas (
+nro_art INT( 100 ) NOT NULL AUTO_INCREMENT ,
+nombre VARCHAR( 20 ) NOT NULL ,
+apellido VARCHAR( 20 ) NOT NULL ,
+descripcion TEXT  NULL ,
+imagen VARCHAR (50) NULL,
+PRIMARY KEY ( nro_art )
+);  
+
+CREATE TABLE empleado (
+nro_EMP INT( 100 ) NOT NULL AUTO_INCREMENT ,
+nombre VARCHAR( 20 ) NOT NULL ,
+apellido VARCHAR( 20 ) NOT NULL ,
+trabajo VARCHAR ( 30 ) NULL ,
+edad INT( 3 ) NOT NULL ,
+salario INT( 5 ) NOT NULL ,
+email VARCHAR( 30 ) NOT NULL ,
+PRIMARY KEY ( nro_emp )
+);  
+
+INSERT INTO artistas (nombre, apellido, descripcion, imagen) VALUES ('Andy', 'Warhol', 'Andy Warhol quería ser famoso. De hecho se podría decir que nadie estudió tanto el concepto de fama como él. Creador, consumidor, crítico de la fama, este artista empaquetó y vendió la marca Andy Warhol como un producto más de la sociedad de consumo. Y lo hizo tan bien, que los quince minutos de fama a los que tiene derecho todo el mundo, le duraron décadas. Warhol era hijo de inmigrantes eslovacos instalados en Pittsburgh. Su madre fue una figura importantísima, pues mimó y sobreprotegió a su hijo hasta el punto que vivió con él toda su vida. Warhol, bicho raro él, decidió irse a Nueva York y dedicarse al arte, en concreto a la ilustración comercial, con la que se ganaba una buena pasta. El institucional expresionismo abstracto dominaba la escena artística y Warhol quiso buscar un estilo completamente distinto. Con su experiencia en publicidad, empezó a mostrar productos de consumo de masas como botellas de coca-cola, latas de sopa Campbell… y al final, personas que eran productos en sí mismos, como Marilyn, Mao o Elvis. La reacción de la escena artística fue un terremoto. De pronto, el expresionismo abstracto dejó de existir. Ahora lo moderno era el Pop, con su frescura, humor y superficialidad. Warhol se convirtió en una estrella. Lo conocían en todas las casas de América. Hay que decir que para ello contrató a publicistas, para que su nombre saliera continuamente en la prensa.', 'jpg1');

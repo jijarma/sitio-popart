@@ -1,0 +1,271 @@
+body{
+    font-size: poppins !important;
+}
+
+/*navbar*/
+nav .navbar-brand img{
+    width: 80px;
+}
+nav{
+    position: sticky;
+}
+nav ul li a{
+    font-size: 1em !important;
+    color: #333 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.2em !important;
+}
+nav ul li a::before{
+    content: '' !important;
+    position: absolute !important;
+    bottom: -2px !important;
+    background-color: #333 !important;
+    transform: scaleX(0) !important;
+    transition: transform 0.5s ease-in-out !important;
+    transform-origin: right !important;
+}
+nav ul li a:hover::before{
+    transform: scaleX(1) !important;
+    transform-origin: left !important;
+}
+
+/*GIF*/
+.gif img{
+    padding: 100px;
+    width: 45%;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+/*search*/
+.searchbox{
+    margin: 0 !important;
+    padding-top: 120px;
+    padding-bottom: 500px;
+}
+.searchbox form{
+    display: flex;
+    background: #A86534;
+    align-items: center;
+}
+.searchbox input{
+    outline: none;
+    background: #A86534;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.searchbox ::placeholder{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/*TEXTOS*/
+.txt{
+    color: white;
+    padding-top: 90px;
+}
+.txt h1{
+    position: sticky;
+    text-align: center;
+    font-size: 58px;
+    padding-bottom: 37px;
+}
+.txt p{
+    text-align: justify;
+    line-height : 25px;
+}
+.artxt{
+    line-height : 35px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.titlegallery{
+    color: #000;
+    text-align: center;
+    font-size: 58px;
+    padding: 100px;
+}
+
+/*CARRUSEL*/
+.carrusel img{
+    width: 100%;
+    filter: brightness(50%);
+}
+
+/*REGISTRO*/
+.formulario{
+    padding-top: 30%;
+    color: #fff;
+} 
+.formulario input{
+    background: #FF5C7A;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.formulario select{
+    background: #FF5C7A;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.formulario button{
+    color: #000;
+    background-color: #fff;
+    border-color: white !important;
+    border-radius: 50px !important;
+    font-size: 15px !important;
+    padding: 17px 27px !important;
+}
+.formulario h1{
+    padding: 50px;
+}
+
+/*BOTON*/
+.volver {
+    color: #000;
+    background-color: #fff ;
+    border-color: white;
+    border-radius: 50px ;
+    font-size: 15px ;
+    padding: 17px 27px ;
+}
+
+/*OPCIONES DE REGISTRO*/
+#opciones{
+    padding-top: 30%;
+}
+#opciones h1{
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+}
+#opciones a{
+    color: #000;
+    background-color: #fff;
+    border-color: white !important;
+    border-radius: 50px !important;
+    font-size: 15px !important;
+    padding: 17px 27px !important;
+}
+
+/*SECCIÓN 1*/
+.seccion-1{
+    background-image: url(../img/imagenes/solid/background.png);
+    background-size: cover;
+}
+
+/*SECCIÓN 2*/
+.seccion-2{
+    background-image: url(../img/imagenes/solid/redd.png);
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+.btn-light{
+    border-color: white !important;
+    border-radius: 50px !important;
+    font-size: 15px !important;
+    padding: 17px 27px !important;
+}
+
+/*SECCIÓN 3*/
+.seccion-3{
+    background-image: url(../img/imagenes/solid/BLUE.png);
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+/*SECCIÓN 4*/
+.seccion-4{
+    background-image: url(../img/imagenes/solid/WHITE.png);
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+.seccion-4 .txt p{
+    color: #000;
+}
+
+/*SECCIÓN 5*/
+.seccion-5{
+    background-image: url(../img/imagenes/solid/agua.png);
+}
+.title{
+    color: #fff;
+    text-align: center;
+    font-size: 58px;
+    padding: 100px;
+}
+#andy img{
+    padding-top: 100px;
+    width: 45%;
+}
+
+/*SECCIÓN 6*/
+.seccion-6{
+    background-image: url(../img/imagenes/solid/left.png);
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+/*sección 7*/
+.seccion-7{
+    background-image: url(../img/imagenes/solid/rosa.png);
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+/*sección 8*/
+.seccion-8{
+    background-image: url(../img/imagenes/solid/a.png);
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+/*sección 9*/
+.seccion-9{
+    background-image: url(../img/imagenes/solid/brown.png);
+}
+
+/*SECCIÓN 10*/
+.seccion-10{
+    /**/background-image: url(../img/artistas/andywarhol/aw.jpg);
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+/*SECCIÓN 11*/
+.seccion-11{
+    background-image: url(../img/imagenes/solid/WHITE.png);
+}
+
+
+/*sección 12*/
+.seccion-12{
+    background-image: url(../img/artistas/RoyLichtenstein/rl.jpg);
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+/*SECCIÓN 13*/
+.seccion-13{
+    background-image: url(../img/artistas/TomWesselmann/tw.jpg);
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+/*SECCIÓN 17*/
+.seccion-17{
+    background-image: url(../img/imagenes/solid/rosa.png);
+    padding-bottom: 100px;
+}
+
+/*PIE DE PATGINA*/
+.firma{
+    color: white;
+    font-family: fertigo-script,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
